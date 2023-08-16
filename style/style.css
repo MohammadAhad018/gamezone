@@ -1,0 +1,180 @@
+.shuru-hoilo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+    
+}
+.golapi{
+    color: #FF42A5;
+}
+.right-kona {
+    display: flex;
+}
+.game-icon{
+    display: flex;
+}
+.icon{
+    height: 50%;
+}
+.grey-back{
+
+background: rgba(11, 2, 35, 0.10);
+
+}
+.play-goat{
+    display: flex;
+    justify-content: space-between;
+}
+.bac{
+    background-image:style//images/Group 14.png;
+}
+.play{
+    padding-left: 40px;
+}
+.button-dure{
+    
+    padding-left: 80px;
+   
+
+}
+.SIGN{
+    color:  #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 48px;
+    background:#FF42A5;
+    padding: 21px 40px;
+}
+.ROUGUE{
+    color:  #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 48px;
+    padding: 21px 40px;
+    background: #4EC5F7;
+}
+.flexy-we-are-gamer{
+    display: flex;
+}
+.online-image{
+    display: flex;
+   
+   justify-content: space-between;
+}
+.h3 , .p{
+    text-align: center;
+    justify-content: space-between;
+}
+.play-instant{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.playinstant-lekha{
+    padding-left: 20px;
+
+}
+.footer-game-icon{
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    padding: 0 50%;
+    color: #FFF;
+}
+.last{
+    background-color: #0B0223 ;
+   
+    
+}
+.our-story{
+    display:flex;
+    justify-content:space-between ;
+    padding: 0 30% ;
+    color: #FFF;
+}
+.icon{
+    padding-left: 53%;
+}
+.term{
+    display: flex;
+     color: #FFF;
+    padding-left: 37%;
+    
+}
+.pa{
+    color: white;
+    padding-left: 40%;
+}
+.gol-image{
+    display: grid;
+    grid-template-areas:
+    " one two   three four five "
+    "   six seven eight nine ten " 
+    ;
+    padding-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+   
+}
+.one , .two , .three , .four , .five , .six , .seven , .eight , .nine{
+    display: flex;
+    text-align: center;
+    
+}
+.six , .seven , .eight , .nine {
+    padding-left: 45%;
+
+}
+@media screen and ( max-width: 375px){
+    .shuru-hoilo{
+        flex-direction: column ;
+    
+    }
+    .right-kona{
+        flex-direction: column ;
+    }
+    .play-goat{
+        flex-direction: column ;
+    }
+    .flexy-we-are-gamer{
+        flex-direction: column ;
+    }
+    
+    .play-instant , .online-image{
+        flex-direction: column ;
+       
+    }
+    .last{
+        
+        max-width: 410px ;
+        padding-right: 100px ;
+
+    }
+    .imo , .ima {
+        max-width:95%;
+    }
+    .gol-image{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    
+    
+ 
+    
+    
+}
+
+
+
+
+
+        
+
+
+
